@@ -1,0 +1,156 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: ivory;
+}
+#nav_bar ul {
+    font-size: 180%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+#nav_bar li {
+    float: left;
+}
+#nav_bar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav_bar li a:hover {
+    color: goldenrod;
+}
+#nav_bar .active {
+    background-color: darkgoldenrod;
+    font-weight: bold;
+}
+#nav_page {
+    font-size: 200%;
+}
+.next {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding-right: 20%;
+}
+.next:hover {
+    color: goldenrod;
+}
+.back {
+    text-decoration: none;
+    color: black;
+    padding-left: 20%;
+}
+.back:hover {
+    color: goldenrod;
+}
+.container1{
+    margin: 20px 20px 0 0;
+    overflow: auto;
+    background-color: #E7DAC3;
+}
+.img_right {
+    float: right;
+}
+.img_right img {
+    display: block;
+}
+.img_left {
+    float: left;
+}
+.img_left img {
+    display: block;
+}
+.content1 {
+    margin-right: 210px;
+    text-align: center;
+}
+.content2 {
+    margin-left: 210px;
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 400%;
+}
+.text {
+    font-size: 200%;
+}
+.hyperlink {
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+    border: 1px solid black;
+    border-radius: 15%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.hyperlink:hover {
+    background-color: lightgoldenrodyellow;
+}
+.ref_body {
+    text-align: left;
+    font-size: 130%;
+}
+.ref_head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+#main_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.beer_body {
+    padding-left: 3%;
+}
+.content3 {
+    font-size: 300%;
+    font-weight: bold;
+}
+.content4 {
+    font-size: 180%;
+    padding-left: 2%;
+}
+.body_content {
+    font-size: 150%;
+    padding-left: 4%;
+}
+#brew_beer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+}
+#brew_beer iframe{
+    border: none;
+    width: 600px;
+    height: 400px;
+}
+.lager {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.beer_content {
+    padding-left: 1%;
+    font-size: 150%;
+}
+.content5 {
+    font-weight: bold;
+    font-size: 160%;
+    padding-left: 2%;
+}
+#award {
+    text-decoration: none;
+    color: black;
+    background-color: goldenrod;
+    font-size: 150%;
+    font-weight: bold;
+}
